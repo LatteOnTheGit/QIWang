@@ -1,10 +1,10 @@
 export default function MenuBar() {
   return (
     <div>
-      <AButton>
+      <AButton id ='btn1' color = 'red' size='50px' >
         Button 1
       </AButton>
-      <AButton>
+      <AButton id ='btn2' color = 'blue' size='50px' >
         Button 2
       </AButton>
     </div>

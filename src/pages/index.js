@@ -2,12 +2,13 @@
 // import Image from 'next/image'
 // import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
-import Item from './qcomps/props_item.js'
+// import Item from './qcomps/recipes.js'
+import MenuBar from './qcomps/menuBar.js'
 
-export default function Home() {
+export default function List() {
   return (
     <div className={styles.main}>
-        <Item />
+        <MenuBar />
     </div>
   )
 }
