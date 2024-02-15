@@ -4,13 +4,14 @@ export default function Counter() {
   const [number, setNumber] = useState(0);
 
   return (
-    <>
+    <div>
       <h1>{number}</h1>
+      <div>That is a test message</div>
       <button onClick={() => {
         setNumber(number + 1);
         setNumber(number + 1);
         setNumber(number + 1);
       }}>+3</button>
-    </>
+    </div>
   )
 }

@@ -3,13 +3,13 @@
 // import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 // import Item from './qcomps/recipes.js'
-import FeedbackForm from './qcomps/thankYouCrash.js'
-// import Gallery from './components/state.js'
+import Scoreboard from './qcomps/updObjectsForm.js'
+// import Form from './components/updObjects.js'
 
 export default function List() {
   return (
     <div className={styles.main}>
-        <FeedbackForm />
+        <Scoreboard />
     </div>
   )
 }

@@ -18,7 +18,7 @@ export default function Form() {
 
 
   return (
-    <>
+    <div>
       <label>
         City:
         <input
@@ -31,6 +31,6 @@ export default function Form() {
         {person.artwork.title}{' '}
         ({person.artwork.city})
       </p>
-    </>
+    </div>
   );
 }
