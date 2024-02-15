@@ -10,7 +10,12 @@ const initialList = [
 export default function BucketList() {
   const [myList, setMyList] = useState(initialList);
   const [yourList, setYourList] = useState(
-    initialList
+    // initialList
+    [
+      { id: 0, title: 'Big Bellies', seen: true },
+      { id: 1, title: 'Lunar Landscape', seen: false },
+      { id: 2, title: 'Terracotta Army', seen: false },
+    ]
   );
 
   function handleToggleMyList(artworkId, nextSeen) {
